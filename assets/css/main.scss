@@ -5,42 +5,11 @@
 
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 
-@font-face {
-  font-family: 'Roboto Mono';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/robotomono/v12/L0xuDF4xlVMF-BfR8bXMIhJHg45mwgGEFl0_3vq_SeW4Ep0.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+body,html {
+  min-height: 100%;
+  font-family: circular, 'segoe ui', sans-serif;
+  color: #222528 * 2;
 }
-
-.layout-page {
-	font-family: 'Roboto Mono';
-
-}
-.article-post {
-	font-family: 'Roboto Mono';
-
-}
-
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: 'Roboto Mono';
-}
-
-pre {
-	font-family: 'Roboto Mono';
-}
-
 
 .post-excerpt p {
 	display:inline;
