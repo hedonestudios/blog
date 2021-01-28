@@ -110,8 +110,6 @@ jQuery(document).ready(function($){
      $(document).on('click', '.spoiler', function() {
         $(this).removeClass('spoiler');
      });
-    
- });   
 
 // deferred style loading
 var loadDeferredStyles = function () {
@@ -127,3 +125,4 @@ if (raf) raf(function () {
 	window.setTimeout(loadDeferredStyles, 0);
 });
 else window.addEventListener('load', loadDeferredStyles);
+
